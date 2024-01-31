@@ -1,5 +1,5 @@
 {
-    "name": "laravel/pint",
+    "name": "hyperlinkgroup/pint",
     "description": "An opinionated code formatter for PHP.",
     "keywords": ["php", "format", "formatter", "lint", "linter"],
     "homepage": "https://laravel.com",
