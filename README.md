@@ -25,21 +25,6 @@ Documentation for Pint can be found on the [Laravel website](https://laravel.com
 
 Thank you for considering contributing to Pint! You can read the contribution guide [here](.github/CONTRIBUTING.md).
 
-<a name="building"></a>
-## Building
-[Box-project/box](https://github.com/box-project/box)
-Box is a tool for building, packaging, and testing PHP applications.
-It's a PHAR (PHP Archive),
-which is an archive format for PHP which can be run on the command line, amongst other things.
-
-
-<a name="development"></a>
-## Development
-To use pint inside the project while developing, you can use the following command:
-```bash
-php pint default
-```
-
 <a name="code-of-conduct"></a>
 ## Code of Conduct
 
