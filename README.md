@@ -33,6 +33,13 @@ It's a PHAR (PHP Archive),
 which is an archive format for PHP which can be run on the command line, amongst other things.
 
 
+<a name="development"></a>
+## Development
+To use pint inside the project while developing, you can use the following command:
+```bash
+php pint default
+```
+
 <a name="code-of-conduct"></a>
 ## Code of Conduct
 
