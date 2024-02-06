@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 68">
-    <title>Laravel Pint logo</title>
+    <title>Hyperlinkgroup Pint logo</title>
     <style>
         g path { fill: #000 } @media (prefers-color-scheme:dark) { g path { fill: #fff } }
     </style>
@@ -9,10 +9,10 @@
     </g>
     <g>
         <circle id="b" cx="34" cy="34" r="32" />
-        <rect clip-path="url(#a)" fill="#FFA300" x="2" y="2" width="64" height="64" />
+        <rect clip-path="url(#a)" fill="#013334" x="2" y="2" width="64" height="64" />
         <polygon opacity=".9" clip-path="url(#a)" fill="#fed100" points="47,66 21,66 18,24 50,24" />
-        <polygon opacity=".5" clip-path="url(#a)" fill="#ffffff" points="30,66 21,66 18,24 29,24" />
-        <rect clip-path="url(#a)" fill="#ffffff" x="18" y="16" width="32" height="8" />
+        <polygon opacity=".5" clip-path="url(#a)" fill="#39C5C533" points="30,66 21,66 18,24 29,24" />
+        <rect clip-path="url(#a)" fill="#fff" x="18" y="16" width="32" height="8" />
         <clipPath id="a"><use xlink:href="#b" /></clipPath>
     </g>
 </svg>
