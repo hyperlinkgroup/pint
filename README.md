@@ -1,4 +1,4 @@
-<p align="center"><img src="/art/logo.jpg" width="50%" alt="Logo Hyperlinkgroup Pint"></p>
+<p align="center"><img src="/art/logo.jpg" width="1280" alt="Logo Hyperlinkgroup Pint"></p>
 
 <p align="center">
     <img src="/art/overview.png" alt="Overview Hyperlinkgroup Pint" style="width:70%;">
