@@ -14,7 +14,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-**Hyperlinkgroup Pint** is a less opinionated, but more our opinionated PHP code style fixer for minimalists. Pint is built on top of **[PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)** and makes it simple to ensure that your code style stays **clean** and **consistent**.
+**Hyperlink Pint** is a less opinionated, but more our opinionated PHP code style fixer for minimalists. Pint is built on top of **[PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)** and makes it simple to ensure that your code style stays **clean** and **consistent**.
 
 ## Official Documentation
 
