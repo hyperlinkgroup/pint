@@ -2,4 +2,5 @@
 /vendor
 composer.lock
 .phpunit.result.cache
-.idea
+/tests/test-output
+/.idea

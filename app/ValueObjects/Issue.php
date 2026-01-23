@@ -14,7 +14,7 @@ class Issue
      * @param  string  $path
      * @param  string  $file
      * @param  string  $symbol
-     * @param  array<string, array<int, string>|\Throwable>  $payload
+     * @param  array<string, list<string>|string|\Throwable>  $payload
      */
     public function __construct(
         protected $path,
@@ -74,7 +74,7 @@ class Issue
 
             $exception = $this->payload['source']->getPrevious() ?: $this->payload['source'];
 
-            return (new Highlighter())->highlight($content, $exception->getLine());
+            return (new Highlighter)->highlight($content, $exception->getLine());
         }
 
         return $this->diff();
@@ -93,12 +93,12 @@ class Issue
     /**
      * Returns the issue's diff, if any.
      *
-     * @return string|null
+     * @return string|void
      */
     protected function diff()
     {
         if ($this->payload['diff']) {
-            $highlighter = new Highlighter();
+            $highlighter = new Highlighter;
             $reflector = new ReflectionClass($highlighter);
 
             $diff = $this->payload['diff'];

@@ -1,6 +1,149 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/pint/compare/v1.14.0...main)
+## [Unreleased](https://github.com/laravel/pint/compare/v1.27.0...main)
+
+## [v1.27.0](https://github.com/laravel/pint/compare/v1.26.0...v1.27.0) - 2026-01-05
+
+* Adds an `agent` format, which is automatically selected when Pint is executed via Claude Code or OpenCode by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/pint/pull/415
+
+## [v1.26.0](https://github.com/laravel/pint/compare/v1.25.1...v1.26.0) - 2025-11-25
+
+* Adds partial support to php 8.5 by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/pint/pull/411
+* Adds`stdin` support with explicit opt-in flag by [@A909M](https://github.com/A909M) in https://github.com/laravel/pint/pull/403
+* Fixes composer allowing to install `pint` as non "dev" dependency by [@SamAsEnd](https://github.com/SamAsEnd) in https://github.com/laravel/pint/pull/407
+
+## [v1.25.1](https://github.com/laravel/pint/compare/v1.25.0...v1.25.1) - 2025-09-19
+
+* Revert "feat: add support for formatting code from stdin" by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/pint/pull/402
+
+## [v1.25.0](https://github.com/laravel/pint/compare/v1.24.0...v1.25.0) - 2025-09-17
+
+* feat: add support for formatting code from stdin by [@calebdw](https://github.com/calebdw) in https://github.com/laravel/pint/pull/390
+* Allow setting the number of max processes for parallel mode by [@cosmastech](https://github.com/cosmastech) in https://github.com/laravel/pint/pull/392
+* Update dependencies by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/pint/pull/394
+* feat: support boolean shorthand for 'cast_spaces' and add tests by [@artengin](https://github.com/artengin) in https://github.com/laravel/pint/pull/398
+* Fixes compatibility with php-cs-fixer v3.87.0 by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/pint/pull/400
+
+## [v1.24.0](https://github.com/laravel/pint/compare/v1.23.0...v1.24.0) - 2025-07-10
+
+- PHP 8.4 support
+- Adds `-p` as shortcut of `--parallel`
+- Fixes parallel on Windows
+
+## [v1.23.0](https://github.com/laravel/pint/compare/v1.22.1...v1.23.0) - 2025-07-03
+
+- Adds `--parallel` option.
+- Allows extending from a base configuration file.
+
+## [v1.22.1](https://github.com/laravel/pint/compare/v1.22.0...v1.22.1) - 2025-05-08
+
+- Fixes ` Argument #1 ($node) must be of type DOMNode` issue.
+
+## [v1.22.0](https://github.com/laravel/pint/compare/v1.21.2...v1.22.0) - 2025-04-08
+
+### What's Changed
+
+* Writing summaries to file via option by [@Onekone](https://github.com/Onekone) in https://github.com/laravel/pint/pull/344
+* Update logo by [@iamdavidhill](https://github.com/iamdavidhill) in https://github.com/laravel/pint/pull/362
+* Update dependencies by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/pint/pull/364
+
+### New Contributors
+
+* [@Onekone](https://github.com/Onekone) made their first contribution in https://github.com/laravel/pint/pull/344
+* [@iamdavidhill](https://github.com/iamdavidhill) made their first contribution in https://github.com/laravel/pint/pull/362
+
+**Full Changelog**: https://github.com/laravel/pint/compare/v1.21.2...v1.22.0
+
+## [v1.21.2](https://github.com/laravel/pint/compare/v1.21.1...v1.21.2) - 2025-03-14
+
+- Bumps dependencies
+
+## [v1.21.1](https://github.com/laravel/pint/compare/v1.21.0...v1.21.1) - 2025-03-11
+
+* Fix GitHub Action failing 'Publish the released PHAR' due to deprecated action 'actions/upload-artifact' by [@matthewnessworthy](https://github.com/matthewnessworthy) in https://github.com/laravel/pint/pull/347
+* Bump dependencies by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/pint/pull/350
+
+## [v1.21.0](https://github.com/laravel/pint/compare/v1.20.0...v1.21.0) - 2025-02-18
+
+* Add `no_unneeded_import_alias` rule by [@claudiodekker](https://github.com/claudiodekker) in https://github.com/laravel/pint/pull/334
+* PHP 8.4 support by [@markwalet](https://github.com/markwalet) in https://github.com/laravel/pint/pull/330
+* Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/337
+* Bump dependencies (php-cs-fixer fixes) by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/338
+* Split files based on `/\R+/` regex for `--diff`, same as `--dirty` by [@erikn69](https://github.com/erikn69) in https://github.com/laravel/pint/pull/339
+* Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/343
+
+## [v1.20.0](https://github.com/laravel/pint/compare/v1.19.0...v1.20.0) - 2025-01-14
+
+* Adds `--diff` option. https://github.com/laravel/pint/pull/327
+
+## [v1.19.0](https://github.com/laravel/pint/compare/v1.18.3...v1.19.0) - 2024-12-30
+
+* Adds `single_line_comment_spacing` rule. https://github.com/laravel/pint/pull/315
+* Ignores PHP 8.4 deprecations. https://github.com/laravel/pint/pull/319
+
+## [v1.18.3](https://github.com/laravel/pint/compare/v1.18.2...v1.18.3) - 2024-11-26
+
+* PHP-CS-Fixer v3.56.0. https://github.com/laravel/pint/pull/308
+
+## [v1.18.2](https://github.com/laravel/pint/compare/v1.18.1...v1.18.2) - 2024-11-20
+
+* Enforces `snake_case` in PHPUnit test methods. https://github.com/laravel/pint/pull/300
+* Enforces visibility for PHPUnit `setUp` and `tearDown` methods. https://github.com/laravel/pint/pull/301
+
+## [v1.18.1](https://github.com/laravel/pint/compare/v1.18.0...v1.18.1) - 2024-09-24
+
+* [1.x] Fixed corrupted binary
+
+## [v1.18.0](https://github.com/laravel/pint/compare/v1.17.3...v1.18.0) - 2024-09-24
+
+* [1.x] Rename rule set `[@PER](https://github.com/PER)` to `[@PER-CS](https://github.com/PER-CS)` by [@dinhquochan](https://github.com/dinhquochan) in https://github.com/laravel/pint/pull/295
+
+## [v1.17.3](https://github.com/laravel/pint/compare/v1.17.2...v1.17.3) - 2024-09-03
+
+* [1.x] Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/294
+
+## [v1.17.2](https://github.com/laravel/pint/compare/v1.17.1...v1.17.2) - 2024-08-06
+
+* [1.x] Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/292
+
+## [v1.17.1](https://github.com/laravel/pint/compare/v1.17.0...v1.17.1) - 2024-08-01
+
+* Rules are not applied when "empty" is specified for the preset by [@takeshiemoto](https://github.com/takeshiemoto) in https://github.com/laravel/pint/pull/289
+
+## [v1.17.0](https://github.com/laravel/pint/compare/v1.16.2...v1.17.0) - 2024-07-23
+
+* Add empty preset to the list by [@imanghafoori1](https://github.com/imanghafoori1) in https://github.com/laravel/pint/pull/283
+* Laravel preset class parentheses by [@brdv](https://github.com/brdv) in https://github.com/laravel/pint/pull/285
+
+## [v1.16.2](https://github.com/laravel/pint/compare/v1.16.1...v1.16.2) - 2024-07-09
+
+* Create empty preset by [@imanghafoori1](https://github.com/imanghafoori1) in https://github.com/laravel/pint/pull/282
+
+## [v1.16.1](https://github.com/laravel/pint/compare/v1.16.0...v1.16.1) - 2024-06-18
+
+* [1.x] Enable single_line_empty_body fixer by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/277
+* [1.x] Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/279
+
+## [v1.16.0](https://github.com/laravel/pint/compare/v1.15.3...v1.16.0) - 2024-05-21
+
+* [1.x] Enable Parallel Execution by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/272
+
+## [v1.15.3](https://github.com/laravel/pint/compare/v1.15.2...v1.15.3) - 2024-04-30
+
+* feat: Add a --with-exit-status flag by [@dshafik](https://github.com/dshafik) in https://github.com/laravel/pint/pull/270
+
+## [v1.15.2](https://github.com/laravel/pint/compare/v1.15.1...v1.15.2) - 2024-04-23
+
+* [1.x] Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/267
+
+## [v1.15.1](https://github.com/laravel/pint/compare/v1.15.0...v1.15.1) - 2024-04-02
+
+* Enable --help flag for pint by [@penyaskito](https://github.com/penyaskito) in https://github.com/laravel/pint/pull/264
+
+## [v1.15.0](https://github.com/laravel/pint/compare/v1.14.0...v1.15.0) - 2024-03-26
+
+* Add the possibility to override the cache file path in command line by [@jimmyklein-actual](https://github.com/jimmyklein-actual) in https://github.com/laravel/pint/pull/255
+* [1.x] Adds `--bail` flag by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/pint/pull/261
 
 ## [v1.14.0](https://github.com/laravel/pint/compare/v1.13.11...v1.14.0) - 2024-02-20
 
